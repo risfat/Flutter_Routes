@@ -6,6 +6,7 @@ This is a Flutter app boilerplate template that provides a structured foundation
 
 - Pre-defined routes for common screens: home, hotel, login, signup, package listing, and package detail.
 - Slide transition animations for navigating between screens.
+- Grouping similar types of routes
 - Boilerplate code for each screen with navigation buttons.
 
 
