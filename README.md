@@ -1,16 +1,11 @@
-# flutter_routes
+# Flutter Routes
 
-A new Flutter project.
+This is a Flutter app boilerplate template that provides a structured foundation for building Flutter applications with named routes and slide transitions. It includes pre-defined routes, slide transition animations, and a sample home screen to help you get started quickly.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Pre-defined routes for common screens: home, hotel, login, signup, package listing, and package detail.
+- Slide transition animations for navigating between screens.
+- Boilerplate code for each screen with navigation buttons.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
