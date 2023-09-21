@@ -11,7 +11,7 @@ This is a Flutter app boilerplate template that provides a structured foundation
 
 ## Demo
 
-<img src="demo/route_demo.gif" alt="Demo" width="300">
+<img src="demo/route_demo.gif" alt="Demo" width="600">
 
 
 
