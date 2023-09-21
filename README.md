@@ -9,4 +9,10 @@ This is a Flutter app boilerplate template that provides a structured foundation
 - Grouping similar types of routes
 - Boilerplate code for each screen with navigation buttons.
 
+## Demo
+
+[![Watch the demo video]](demo/route_demo.mp4)
+
+
+
 
