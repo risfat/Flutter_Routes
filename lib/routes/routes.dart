@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_routes/routes/route_service.dart';
 
 import '../views/home_view.dart';
 import 'app_routes.dart';
@@ -25,19 +26,19 @@ class Routes {
 
       Widget builder(BuildContext c) => child!(c, settings);
 
-      if (settings.name == AppRoutes.hotel || settings.name == AppRoutes.home) {
-        return SlideRoute(builder: builder, startOffset: const Offset(0, 1), endOffset: Offset.zero);
+      if (settings.name == AppRoutes.hotel) {
+        return SlideRoute(builder: builder, startOffset: getOffsetByTransitionName(TransitionName.slideLeft));
       }
       if (settings.name == AppRoutes.home) {
-        return SlideRoute(builder: builder, startOffset: const Offset(1, 0), endOffset: const Offset(1, 0));
+        return SlideRoute(builder: builder, startOffset: getOffsetByTransitionName(TransitionName.slideDown));
       }
 
       if (settings.name == AppRoutes.login) {
-        return SlideRoute(builder: builder, startOffset: const Offset(1, 0), endOffset: const Offset(0, 0));
+        return SlideRoute(builder: builder, startOffset: getOffsetByTransitionName(TransitionName.slideLeft));
       }
 
       if (settings.name == AppRoutes.signup) {
-        return SlideRoute(builder: builder, startOffset: const Offset(1, 0), endOffset: const Offset(0, 0));
+        return SlideRoute(builder: builder, startOffset: getOffsetByTransitionName(TransitionName.slideRight));
       }
 
       return MaterialPageRoute(

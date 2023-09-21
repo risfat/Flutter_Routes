@@ -6,8 +6,8 @@ enum TransitionName {
   slideLeft,
   slideRight,
 }
-Offset getOffsetByTransitionName(String transitionName) {
-  switch (transitionName) {
+Offset getOffsetByTransitionName(TransitionName transitionName) {
+  switch (transitionName.name) {
     case 'slideUp':
       return const Offset(0, -1);
     case 'slideDown':
